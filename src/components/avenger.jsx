@@ -4,7 +4,12 @@ class Avenger extends Component
 {
     render()
     {
-        return <h1>Avenger incomming...!</h1>;
+        return (
+        <React.Fragment>
+        <h1>Avenger incomming...!</h1>
+        <button>Click here</button>
+        </React.Fragment>
+        );
     }
 }
 
